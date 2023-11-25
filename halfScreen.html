@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body class="w-screen h-screen flex flex-col bg-gray-900 text-white text-[8rem]">
+    <div class="w-full h-1/2 flex justify-evenly ">
+        <div class="flex flex-col items-center justify-center">
+            <img src="./logo.jpeg" alt="logo img">
+            <div>Team A</div>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <h1 class="font-bold">match name</h1>
+           
+            <div class="text-yellow-400 font-bold">
+                123:64
+            </div>
+            <div class="text-green-400  font-custom font-bold ">
+                12:44
+            </div>
+            <div class="flex items-center justify-center uppercase gap-[1rem] text-[3rem] bg-green-400 rounded-xl overflow-hidden "><div class="bg-blue-400 p-3 ">
+                vs
+            </div>
+            <div class="p-3">Change</div>
+        
+        </div>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <img src="./logo.jpeg" alt="logo img">
+            <div>Team B</div>
+        </div>
+    </div>
+
+    <div class="w-full h-1/2">
+    <video class="w-full h-full " controls>
+        <source src="./ad.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+</body>
+
+</html>
