@@ -7,3 +7,7 @@
   font-weight: bold;
   font-style: normal;
 }
+
+video::-webkit-media-controls {
+            display: none !important;
+        }
